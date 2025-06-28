@@ -54,8 +54,8 @@ def send_email():
         user_msg = MIMEMultipart()
         user_msg['From'] = GMAIL_USER
         user_msg['To'] = user_email
-        user_msg['Subject'] = 'Thanks for contacting Selva Vishnu'
-        user_body = f"Hi {name},\n\nThank you for connecting with me! I will get back to you soon.\n\n– Selva Vishnu"
+        user_msg['Subject'] = 'dei '
+        user_body = f"Hi {name},\n\nyenna da amount venum aa.\n\n– "
         user_msg.attach(MIMEText(user_body, 'plain'))
 
         # Create email for admin (notification)
